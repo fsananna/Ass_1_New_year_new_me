@@ -85,7 +85,6 @@ color: #444343;
 
 }
 .section-list{
-    list-style: none;
     content:"\2713";
     position: absolute;
     width: 349px;
@@ -137,18 +136,17 @@ width: 1100px;
 height: 280px;
 left: 230px;
 top: 2300.26px;
-background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('../images/watch.png');
 border-radius: 8px;
-
 }
+
 .positive-title{
     position: absolute;
     width: 400px;
     height: 200px;
     left: 10px;
     top: 90px;
-    font-family: 'Work Sans';
-    font-style: normal;
+    margin-top:-43px;
     font-weight: 500;
     font-size: 35px;
     line-height: 50px;
@@ -157,17 +155,18 @@ border-radius: 8px;
     
 }
 .positive-btn{
-        position: absolute;
+        position:relative;
         font-weight: 700;
         font-size: 20px;
         border: 0;
+        margin-bottom:-100px;
         padding: 20px 40px;
         height: 60px;   
         border-radius: 7px;
         margin: 200px 20px;
         align-items: center;
-    color: #F15B22;
-    background-color: #FFFFFF; 
+        color: #F15B22;
+        background-color: #FFFFFF; 
 }
 /* contact */
 .contact{
@@ -275,4 +274,29 @@ top: 2842.26px;
     
     background: #FFFFFF;
     border-radius: 8px;
+}
+
+/* bonus section */
+.connection{
+    display: flex;
+    gap: 100px;
+    background-color:#d5f2f3 ;
+    padding: 130px 200px;
+}
+.connection .conn-title{
+   text-align: left;
+   text-shadow: #F15B22;
+}
+.connection input[type="text"],input[type="email"] ,textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding:18px 30px;
+
+}
+input{
+    height:64px ;
+}
+.connection a{
+text-decoration: none;
 }
