@@ -30,14 +30,12 @@
     text-align: left;
     color: #151414;
 }
-.banner-discription{
+.banner-description{
 position: absolute;
 width: 494px;
 height: 78px;
 left: 48px;
 top: 521px;
-font-family: 'Work Sans';
-font-style: normal;
 font-size: 16px;
 line-height: 26px;
 text-align: left;
@@ -144,14 +142,6 @@ border-radius: 8px;
 
 }
 .positive-title{
-    /* position: absolute;
-    font-family: Work Sans;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 47px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF; */
     position: absolute;
     width: 400px;
     height: 200px;
@@ -184,10 +174,69 @@ border-radius: 8px;
     display: flex;
     gap: 100px;
     background-color:#FFF8F3 ;
-    padding: 130px 200px;
+    padding: 200px 330px;
+    margin-top: 1100px;
+    margin-right: -100px;
+    background: #151414;
 }
-.contact .section-title{
-   text-align: left;
+.future-title{
+position: absolute;
+width: 148px;
+height: 53px;
+left: 230px;
+top: 2776.3px;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+margin-top: -90px;
+margin-left: -40px;
+color: #F8F8F8;
+
+
+}
+.future-description{
+    margin-top: -80px;
+    margin-left: -40px;
+    position: absolute;
+    width: 485px;
+    height: 78px;
+    left: 230px;
+    top: 2845.3px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;  
+}
+.f-email{
+margin-top: -70px;
+margin-left: -50px;
+position:absolute;
+width: 184px;
+height: 26px;
+left: 237px;
+top: 2935px;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;  
+}
+.f-phn{
+position: absolute;
+margin-top: -50px;
+margin-left: -50px;
+width: 184px;
+height: 26px;
+left: 237px;
+top: 2935px;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+}
+.icon{
+ position: absolute;
+ margin-top:-100px;
+width: 175px;
+height: 46px;
+left: 230px;
+top: 3047.3px;
 }
 .contact input[type="text"],input[type="email"] ,textarea{
     margin-bottom: 24px;
@@ -195,3 +244,35 @@ border-radius: 8px;
     width: 100%;
     padding:18px 30px;
 
+}
+.contact .subscribe-title{
+    margin-top: -80px;
+    position: absolute;
+    width: 123px;
+    height: 29px;
+    left: 1046px;
+    top: 2782.26px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.contact .email{
+    margin-top: -90px;
+position: absolute;
+width: 300px;
+height: 14px;
+left: 1046px;
+top: 2842.26px;
+}
+.contact .button-primary{
+    margin-top: -110px;
+    position: absolute;
+    width: 150.11px;
+    height: 50px;
+    left: 1046px;
+    top: 2922.26px;
+    
+    background: #FFFFFF;
+    border-radius: 8px;
+}
